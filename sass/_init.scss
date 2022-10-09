@@ -1,1 +1,50 @@
-// variables
+:root {
+  // colors
+
+  --black: #{hsl(0, 0%, 0%)};
+  --dark: #{hsl(0, 0%, 19%)};
+  --white: #{hsl(0, 0%, 100%)};
+
+  // typography
+
+  // font weights
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  // font family
+
+  --ff-base: 'Inter', sans-serif;
+
+  // font size
+
+  --fs-100: 0.9375rem; // 15px
+  --fs-400: 1.125rem; // 18px
+  --fs-500: 1.25rem; // 20px
+  --fs-600: 1.5rem; // 24px
+  --fs-650: 2.5rem; // 40px
+  --fs-700: 3.5rem; // 56px
+  --fs-800: 6.25rem; // 100px
+  --fs-900: 12.5rem; // 200px
+
+  // line-height
+
+  --lh-200: 1.17em;
+  --lh-300: 1.4em;
+  --lh-400: 1.56em;
+  --lh-500: 1.87em;
+  --lh-fixed: 1.75rem;
+
+  // letter spacing
+
+  --ls-100: -5px;
+  --ls-400: 3px;
+  --ls-500: 4px;
+  --ls-600: 4.8px;
+
+  // site width
+
+  --page-width: 69.375rem; // 1110px
+  --page-padding-min: 1.5rem; // 24px
+  --page-padding-max: 4rem; // 64px
+}
