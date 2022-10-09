@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frontend Mentor | Clock App</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/compiled.css">
+</head>
+
+<body>
+    <div class="skeleton">
+    <main class="main-screen clamp">
+        <div class="quote">
+            <q class="quote__text" data-quote-text></q>
+            <p class="quote__author" data-quote-author></p>
+            <button data-load-quote>
+                <span class="sr-only">Load another quote</span>
+                <img aria-hidden="true" src="/dist/svg/icon-refresh.svg" alt="">
+            </button>
+        </div>        <div class="current">
+            <h1>
+                <span class="message">
+                    <img src="/dist/svg/icon-moon.svg" alt="Moon">
+                    GOOD MORNING, IT’S CURRENTLY</span>
+                <span class="current_time">
+                    <span class="time" data-combined-time></span>
+                    <span class="timezone" data-clock-time></span>
+                </span>
+                <span class="location">IN LONDON, UK</span>
+            </h1>
+            <button class="btn" id="translate">more <img src="/dist/svg/icon-arrow-up.svg" alt=""></button>
+        </div>    </main>
+    <footer class="extra">
+        <dl class="clamp">
+            <div>
+                <dt>CURRENT TIMEZONE</dt>
+                <dd data-timezone></dd>
+            </div>
+            <div>
+                <dt>Day of the year</dt>
+                <dd data-day-year></dd>
+            </div>
+            <div>
+                <dt>Day of the week</dt>
+                <dd data-day-week></dd>
+            </div>
+            <div>
+                <dt>Week number</dt>
+                <dd data-week-number></dd>
+            </div>
+        </dl>
+    </footer></div>
+    <script src="../dist/scripts/app.js"></script>
+</body>
+
+</html>
